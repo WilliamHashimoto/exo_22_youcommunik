@@ -1,0 +1,109 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.fatherSection {
+    width: 60vw;
+    margin: 0 auto;
+    padding: 0px;
+    box-shadow: 1px 0px 20px;
+}
+
+/* Global */
+
+h1 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+/* Navbar */
+
+.sechead {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+#logoHomepage img {
+    height: 35px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.divNav {
+    width: 75px;
+}
+
+.divNav img {
+    width: 50px;
+}
+
+.navBar p {
+    margin: 0;
+    font-size: 10px;
+}
+
+/* Main */
+
+/* Section 1 */
+
+.main1 {
+    background-color: #334d5c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    height: 30vh;
+}
+
+.main1 img {
+    height: 130px;
+}
+
+.main1 div p {
+    font-size: 25px;
+    margin: 20px;
+}
+
+/* Section 2 */
+
+.main2{
+    display: flex;
+    height: 350px;
+}
+
+.main2 .imgpar {
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+
+.main2 img {
+    height: 175px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 40px;
+}
+
+.mainEclo {
+    margin: 20px;
+    width: 60%; 
+}
+
+.mainEclo h1 {
+    color: white;
+    background-color :#334d5c;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 50px;
+}
+
