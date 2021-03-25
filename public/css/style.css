@@ -78,24 +78,24 @@ h1 {
 
 .main2{
     display: flex;
-    height: 350px;
+    height: 300px;
 }
 
 .main2 .imgpar {
     position: relative;
     width: 300px;
-    height: 350px;
+    height: 300px;
 }
 
 .main2 img {
     height: 175px;
     position: absolute;
-    bottom: 0;
+    bottom: 5%;
     margin-left: 40px;
 }
 
 .mainEclo {
-    margin: 20px;
+    /* margin: 10px; */
     width: 60%; 
 }
 
@@ -104,6 +104,177 @@ h1 {
     background-color :#334d5c;
     width: fit-content;
     height: fit-content;
-    padding: 20px 50px;
+    padding: 5px 60px;
 }
 
+.mainEclo .divp {
+    padding: 0 50px;
+    padding-top: 10px;
+}
+
+/* Section 3 */
+
+.main3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eae3d6;
+    padding: 30px 80px;
+}
+
+.main3 div {
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    width: fit-content;
+}
+
+.main3 div img {
+    width: 60px;
+    margin: 0 auto;
+}
+
+/* Section 4 */
+
+.main4{
+    display: flex;
+    height: 300px;
+}
+
+.main4 .imgpar4 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.main4 img {
+    height: 175px;
+    position: absolute;
+    bottom: 5%;
+    margin-left: 40px;
+}
+
+.mainEclo4 {
+    /* margin: 10px; */
+    width: 60%; 
+}
+
+.mainEclo4 h1 {
+    color: white;
+    background-color :#334d5c;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 60px;
+}
+
+.mainEclo4 .divp4 {
+    padding: 0 50px;
+    padding-top: 10px;
+}
+
+/* Section 5 */
+
+.main5 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eae3d6;
+    padding: 30px 80px;
+    flex-flow: row wrap;
+    /* height: 400px; */
+}
+
+.main5 div {
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    width: fit-content;
+}
+
+.main5 div img {
+    width: 60px;
+    margin: 0 auto;
+}
+
+/* .main5 div:last-of-type {
+    flex-flow: wrap;
+    /* align-self: flex-end; */
+    justify-content: center;
+} */
+
+/* Section 6 */
+
+.main6{
+    display: flex;
+    height: 300px;
+}
+
+.main6 .imgpar6 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.main6 img {
+    height: 175px;
+    position: absolute;
+    bottom: 5%;
+    margin-left: 40px;
+}
+
+.mainEclo6 {
+    /* margin: 10px; */
+    width: 60%; 
+}
+
+.mainEclo6 h1 {
+    color: white;
+    background-color :#334d5c;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 60px;
+}
+
+.mainEclo6 .divp6 {
+    padding: 0 50px;
+    padding-top: 10px;
+}
+
+/* Section 7 */
+
+.main7 {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    background-color: #eae3d6;
+    padding: 30px 80px;
+}
+
+.main7 div {
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    width: fit-content;
+}
+
+.main7 div img {
+    width: 60px;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #393a3b;
+}
+
+.footer div {
+    padding: 50px;
+}
+
+h4 {
+    color: white;
+    font-weight: bold;
+}
+
+.footer img {
+    width: 45px;
+}
