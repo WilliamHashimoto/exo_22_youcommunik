@@ -194,21 +194,17 @@ h1 {
     margin: 0 auto;
 }
 
-/* .main5 div:last-of-type {
-    flex-flow: wrap;
-    /* align-self: flex-end; */
-    justify-content: center;
-} */
 
 /* Section 6: Envol */
 
 .main6{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .title-envol {
-    /* text-align: center; */
+
     display: flex;
     justify-content: center;
 }
