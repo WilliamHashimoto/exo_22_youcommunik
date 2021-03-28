@@ -200,42 +200,40 @@ h1 {
     justify-content: center;
 } */
 
-/* Section 6 */
+/* Section 6: Envol */
 
 .main6{
     display: flex;
-    height: 300px;
+    justify-content: center;
 }
 
-.main6 .imgpar6 {
-    position: relative;
-    width: 300px;
-    height: 300px;
+.title-envol {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
 }
 
-.main6 img {
-    height: 175px;
-    position: absolute;
-    bottom: 5%;
-    margin-left: 40px;
-}
-
-.mainEclo6 {
-    /* margin: 10px; */
-    width: 60%; 
-}
-
-.mainEclo6 h1 {
+.title-envol h1 {
     color: white;
     background-color :#334d5c;
-    width: fit-content;
-    height: fit-content;
+    width: 100px;
     padding: 5px 60px;
 }
 
+.mainEclo6 {
+    display: flex;
+}
+
+.mainEclo6 img {
+    width: 175px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
 .mainEclo6 .divp6 {
-    padding: 0 50px;
-    padding-top: 10px;
+    padding-left: 120px;
+    padding-right: 80px;
+    padding-top: 15px;
 }
 
 /* Section 7 */
@@ -264,10 +262,18 @@ h1 {
 
 .footer {
     background-color: #393a3b;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer div {
-    padding: 50px;
+
 }
 
 h4 {
@@ -276,5 +282,12 @@ h4 {
 }
 
 .footer img {
-    width: 45px;
+    width: 60px;
+    padding: 10px 10px 10px 0px;
+}
+
+.cond {
+    text-align: end;
+    color: white;
+    padding: 5px;
 }
